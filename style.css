@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    color: #26324b;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #263c92, #7656d6);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: white;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+nav a {
+    color: #354da8;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 14px;
+}
+
+nav a:hover {
+    color: #7656d6;
+}
+
+main {
+    max-width: 1050px;
+    margin: auto;
+    padding: 25px 18px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    margin-bottom: 18px;
+}
+
+.welcome {
+    background-color: #e5eaff;
+    padding: 28px;
+    border-radius: 14px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 22px;
+    border-radius: 12px;
+    flex: 1 1 220px;
+    box-shadow: 0 4px 12px #e1e4ef;
+    border-top: 4px solid #6658d3;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #354da8;
+    margin-bottom: 8px;
+}
+
+.card span {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 5px 10px;
+    background-color: #eeedff;
+    color: #5545b8;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.roadmap,
+.resource {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px #e1e4ef;
+}
+
+.roadmap p {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.resource h3 {
+    color: #354da8;
+    margin-bottom: 6px;
+}
+
+.resource a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #5947c7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resource a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #26324b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+}
