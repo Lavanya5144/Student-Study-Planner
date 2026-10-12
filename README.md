@@ -1,2 +1,2 @@
-# Student-Study-Planner
+Student-Study-Planner
 My web development project
